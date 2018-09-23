@@ -1,4 +1,0 @@
-language: bash
-
-script:
-  - $TRAVIS_BUILD_DIR/build.sh

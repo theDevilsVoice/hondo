@@ -1,0 +1,15 @@
+language: bash
+sudo: require
+git:
+  depth: false
+  quiet: true
+env:
+  - ESPIDF=$TRAVIS_BUILD_DIR/esp-idf
+  - BUILD_VERBOSE=1
+script:
+  - $TRAVIS_BUILD_DIR/build.sh
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
