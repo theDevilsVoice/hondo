@@ -1,0 +1,5 @@
+micropython
+esp-idf
+esp-idf-template
+xtensa-esp32-elf
+*.gz
